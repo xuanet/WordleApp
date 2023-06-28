@@ -15,7 +15,8 @@ struct ContentView: View {
     
     // configure the cell appearance
     let borderWidth = 1.0
-    let boxSize = 50.0
+    let boxSize = 80.0
+    let fontSize = 50.0
     
     // hard coded word for testing
     @State var hardCodedWord = "APPLE"
@@ -48,6 +49,7 @@ struct ContentView: View {
             
             HStack {
                 Text(guesses[0][0])
+                    .font(.system(size: fontSize))
                     .padding()
                     .fixedSize()
                     .frame(width: boxSize, height: boxSize)
@@ -60,6 +62,7 @@ struct ContentView: View {
                         .fill(colors[0][0])
                     )
                 Text(guesses[0][1])
+                    .font(.system(size: fontSize))
                     .padding()
                     .fixedSize()
                     .frame(width: boxSize, height: boxSize)
@@ -72,6 +75,7 @@ struct ContentView: View {
                         .fill(colors[0][1])
                     )
                 Text(guesses[0][2])
+                    .font(.system(size: fontSize))
                     .padding()
                     .fixedSize()
                     .frame(width: boxSize, height: boxSize)
@@ -84,6 +88,7 @@ struct ContentView: View {
                         .fill(colors[0][2])
                     )
                 Text(guesses[0][3])
+                    .font(.system(size: fontSize))
                     .padding()
                     .fixedSize()
                     .frame(width: boxSize, height: boxSize)
@@ -96,6 +101,7 @@ struct ContentView: View {
                         .fill(colors[0][3])
                     )
                 Text(guesses[0][4])
+                    .font(.system(size: fontSize))
                     .padding()
                     .fixedSize()
                     .frame(width: boxSize, height: boxSize)
@@ -113,6 +119,7 @@ struct ContentView: View {
                 
             HStack {
                 Text(guesses[1][0])
+                    .font(.system(size: fontSize))
                     .padding()
                     .fixedSize()
                     .frame(width: boxSize, height: boxSize)
@@ -125,6 +132,7 @@ struct ContentView: View {
                         .fill(colors[1][0])
                     )
                 Text(guesses[1][1])
+                    .font(.system(size: fontSize))
                     .padding()
                     .fixedSize()
                     .frame(width: boxSize, height: boxSize)
@@ -137,6 +145,7 @@ struct ContentView: View {
                         .fill(colors[1][1])
                     )
                 Text(guesses[1][2])
+                    .font(.system(size: fontSize))
                     .padding()
                     .fixedSize()
                     .frame(width: boxSize, height: boxSize)
@@ -149,6 +158,7 @@ struct ContentView: View {
                         .fill(colors[1][2])
                     )
                 Text(guesses[1][3])
+                    .font(.system(size: fontSize))
                     .padding()
                     .fixedSize()
                     .frame(width: boxSize, height: boxSize)
@@ -161,6 +171,7 @@ struct ContentView: View {
                         .fill(colors[1][3])
                     )
                 Text(guesses[1][4])
+                    .font(.system(size: fontSize))
                     .padding()
                     .fixedSize()
                     .frame(width: boxSize, height: boxSize)
@@ -178,6 +189,7 @@ struct ContentView: View {
                     
             HStack {
                 Text(guesses[2][0])
+                    .font(.system(size: fontSize))
                     .padding()
                     .fixedSize()
                     .frame(width: boxSize, height: boxSize)
@@ -190,6 +202,7 @@ struct ContentView: View {
                         .fill(colors[2][0])
                     )
                 Text(guesses[2][1])
+                    .font(.system(size: fontSize))
                     .padding()
                     .fixedSize()
                     .frame(width: boxSize, height: boxSize)
@@ -202,6 +215,7 @@ struct ContentView: View {
                         .fill(colors[2][1])
                     )
                 Text(guesses[2][2])
+                    .font(.system(size: fontSize))
                     .padding()
                     .fixedSize()
                     .frame(width: boxSize, height: boxSize)
@@ -214,6 +228,7 @@ struct ContentView: View {
                         .fill(colors[2][2])
                     )
                 Text(guesses[2][3])
+                    .font(.system(size: fontSize))
                     .padding()
                     .fixedSize()
                     .frame(width: boxSize, height: boxSize)
@@ -226,6 +241,7 @@ struct ContentView: View {
                         .fill(colors[2][3])
                     )
                 Text(guesses[2][4])
+                    .font(.system(size: fontSize))
                     .padding()
                     .fixedSize()
                     .frame(width: boxSize, height: boxSize)
@@ -243,6 +259,7 @@ struct ContentView: View {
                         
             HStack {
                 Text(guesses[3][0])
+                    .font(.system(size: fontSize))
                     .padding()
                     .fixedSize()
                     .frame(width: boxSize, height: boxSize)
@@ -255,6 +272,7 @@ struct ContentView: View {
                         .fill(colors[3][0])
                     )
                 Text(guesses[3][1])
+                    .font(.system(size: fontSize))
                     .padding()
                     .fixedSize()
                     .frame(width: boxSize, height: boxSize)
@@ -267,6 +285,7 @@ struct ContentView: View {
                         .fill(colors[3][1])
                     )
                 Text(guesses[3][2])
+                    .font(.system(size: fontSize))
                     .padding()
                     .fixedSize()
                     .frame(width: boxSize, height: boxSize)
@@ -279,6 +298,7 @@ struct ContentView: View {
                         .fill(colors[3][2])
                     )
                 Text(guesses[3][3])
+                    .font(.system(size: fontSize))
                     .padding()
                     .fixedSize()
                     .frame(width: boxSize, height: boxSize)
@@ -291,6 +311,7 @@ struct ContentView: View {
                         .fill(colors[3][3])
                     )
                 Text(guesses[3][4])
+                    .font(.system(size: fontSize))
                     .padding()
                     .fixedSize()
                     .frame(width: boxSize, height: boxSize)
@@ -308,6 +329,7 @@ struct ContentView: View {
             
             HStack {
                 Text(guesses[4][0])
+                    .font(.system(size: fontSize))
                     .padding()
                     .fixedSize()
                     .frame(width: boxSize, height: boxSize)
@@ -320,6 +342,7 @@ struct ContentView: View {
                         .fill(colors[4][0])
                     )
                 Text(guesses[4][1])
+                    .font(.system(size: fontSize))
                     .padding()
                     .fixedSize()
                     .frame(width: boxSize, height: boxSize)
@@ -332,6 +355,7 @@ struct ContentView: View {
                         .fill(colors[4][1])
                     )
                 Text(guesses[4][2])
+                    .font(.system(size: fontSize))
                     .padding()
                     .fixedSize()
                     .frame(width: boxSize, height: boxSize)
@@ -344,6 +368,7 @@ struct ContentView: View {
                         .fill(colors[4][2])
                     )
                 Text(guesses[4][3])
+                    .font(.system(size: fontSize))
                     .padding()
                     .fixedSize()
                     .frame(width: boxSize, height: boxSize)
@@ -356,6 +381,7 @@ struct ContentView: View {
                         .fill(colors[4][3])
                     )
                 Text(guesses[4][4])
+                    .font(.system(size: fontSize))
                     .padding()
                     .fixedSize()
                     .frame(width: boxSize, height: boxSize)
@@ -373,6 +399,7 @@ struct ContentView: View {
             
             HStack {
                 Text(guesses[5][0])
+                    .font(.system(size: fontSize))
                     .padding()
                     .fixedSize()
                     .frame(width: boxSize, height: boxSize)
@@ -385,6 +412,7 @@ struct ContentView: View {
                         .fill(colors[5][0])
                     )
                 Text(guesses[5][1])
+                    .font(.system(size: fontSize))
                     .padding()
                     .fixedSize()
                     .frame(width: boxSize, height: boxSize)
@@ -397,6 +425,7 @@ struct ContentView: View {
                         .fill(colors[5][1])
                     )
                 Text(guesses[5][2])
+                    .font(.system(size: fontSize))
                     .padding()
                     .fixedSize()
                     .frame(width: boxSize, height: boxSize)
@@ -409,6 +438,7 @@ struct ContentView: View {
                         .fill(colors[5][2])
                     )
                 Text(guesses[5][3])
+                    .font(.system(size: fontSize))
                     .padding()
                     .fixedSize()
                     .frame(width: boxSize, height: boxSize)
@@ -421,6 +451,7 @@ struct ContentView: View {
                         .fill(colors[5][3])
                     )
                 Text(guesses[5][4])
+                    .font(.system(size: fontSize))
                     .padding()
                     .fixedSize()
                     .frame(width: boxSize, height: boxSize)
